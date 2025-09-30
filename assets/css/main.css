@@ -17861,7 +17861,7 @@ html.lenis body {
 }
 .rs-services-details-wrapper .rs-list-item ul {
   display: grid;
-  grid-template-columns: 300px auto;
+  /* grid-template-columns: 300px auto; */
   align-items: center;
   gap: 8px 0px;
 }
