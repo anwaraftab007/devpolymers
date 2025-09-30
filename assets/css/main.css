@@ -758,6 +758,7 @@ p {
   color: var(--rs-text-primary);
   margin-bottom: 30px;
   line-height: 30px;
+  text-align: justify;
 }
 p.b1 {
   font-size: var(--rs-fs-b1);
