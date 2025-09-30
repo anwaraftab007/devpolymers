@@ -14450,11 +14450,11 @@ html.lenis body {
 .rs-feature-one .rs-feature-item:hover {
   background: var(--rs-theme-orange);
 }
-.rs-feature-one .rs-feature-item:hover .rs-feature-icon svg {
+.rs-feature-one .rs-feature-item:hover .rs-feature-icon i {
   animation: rs-fold linear 0.3s;
 }
-.rs-feature-one .rs-feature-item:hover .rs-feature-icon svg path {
-  fill: var(--rs-white);
+.rs-feature-one .rs-feature-item:hover .rs-feature-icon i {
+  color: white;
 }
 .rs-feature-one .rs-feature-item:hover .rs-feature-title {
   color: var(--rs-white);
