@@ -25685,3 +25685,34 @@ a.ui-button:active {
   box-shadow: 0 0 5px #666;
 }
 /*# sourceMappingURL=../maps/main.css.map */
+
+
+
+/* Custom CSS */
+
+.custom-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid rgba(255,255,255,0.1); /* optional */
+  font-size: 14px;
+  color: #fff; /* adjust if footer is light */
+  font-size: var(--rs-fs-p);
+  font-family: var(--rs-ff-p);
+  font-weight: var(--rs-fw-normal);
+
+}
+
+.custom-footer-bottom a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .custom-footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+}
