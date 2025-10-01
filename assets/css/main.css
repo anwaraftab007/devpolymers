@@ -2982,7 +2982,14 @@ textarea:focus {
   display: inline-flex;
   gap: 15px 35px;
   justify-content: center;
-  flex-wrap: wrap;
+  text-align: justify;
+}
+@media (min-width: 767px){
+  .rs-breadcrumb-one .rs-breadcrumb-menu ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
 }
 .rs-breadcrumb-one .rs-breadcrumb-menu ul li {
   list-style: none;
@@ -17849,6 +17856,7 @@ html.lenis body {
 }
 .rs-services-details-wrapper .rs-services-details-title {
   font-size: 36px;
+  text-align: justify;
 }
 @media only screen and (max-width: 1199px) {
   .rs-services-details-wrapper .rs-services-details-title {
