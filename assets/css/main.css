@@ -25736,20 +25736,20 @@ a.ui-button:active {
 .service-details__list li i {
   margin-right: 8px;
   flex-shrink: 0;
-  margin-top: 6px;
+  margin-top: 7.6px;
   color: var(--rs-theme-orange);
-  font-size: 16px;
+  font-size: 14px;
 }
 @media (max-width: 576px) {
   .service-details__list li i {
-    margin-top: 4px;
+    margin-top: 7.6px;
   }
 }
 .service-details__list p {
   margin-bottom: 4px !important;
 }
 .inter-font {
-            font-family: "Inter" !important;
+            /* font-family: "Inter" !important; */
             font-style: normal !important;
             font-size: 26px !important;
         }
