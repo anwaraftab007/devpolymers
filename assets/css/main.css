@@ -25783,3 +25783,27 @@ a.ui-button:active {
         .service-details__list {
             padding-left: .2rem !important;
         }
+
+
+
+
+        /* Force icon to stay fixed and top-aligned */
+.offcanvas-contact-icon {
+  flex: 0 0 auto !important;     /* don't shrink or stretch */
+  align-self: flex-start !important; /* stick to the top of li */
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Fix SVG size and prevent distortion */
+.offcanvas-contact-icon svg {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  display: block !important;
+}
+
+.offcanvas-contact-text{
+  text-align: justify !important;
+}
