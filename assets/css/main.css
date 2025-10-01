@@ -20243,8 +20243,19 @@ html.lenis body {
   z-index: -1;
 }
 .rs-contact-five .rs-contact-btn {
-  margin-top: 40px;
-  margin-bottom: 45px;
+  margin-top: 3
+  0px;
+  margin-bottom: 5px;
+}
+@media (min-width: 1500px) {
+  .rs-contact-five .rs-contact-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .rs-contact-form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 .rs-contact-five .rs-contact-btn .rs-btn {
   background: transparent;
@@ -20395,8 +20406,8 @@ html.lenis body {
   }
 }
 .rs-contact-form {
-  padding-top: 66px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-inline-start: 80px;
   padding-inline-end: 80px;
   background: #F7F7F7;
@@ -20419,6 +20430,14 @@ html.lenis body {
 @media only screen and (max-width: 767px) {
   .rs-contact-form {
     margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 1780px) {
+  .rs-contact-form {
+    padding-top: 45px;
+    padding-bottom: 30px;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
   }
 }
 .rs-contact-form .descrip {
