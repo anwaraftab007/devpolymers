@@ -5527,16 +5527,16 @@ html.lenis body {
 /*----------------------------------------*/
 /*  2.6 list
 /*----------------------------------------*/
-.rs-list-item ul li {
+/* .rs-list-item ul li {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 10px;
-}
+} */
 .rs-list-item ul li:not(:last-child) {
   margin-bottom: 15px;
 }
-.rs-list-item ul li i {
+/* .rs-list-item ul li i {
   border: 2px solid var(--rs-theme-blue);
   color: var(--rs-theme-blue);
   border-radius: 50%;
@@ -5546,7 +5546,7 @@ html.lenis body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .rs-list-item.has-theme-red ul li i {
   border: 2px solid var(--rs-theme-red);
   color: var(--rs-theme-red);
@@ -5559,14 +5559,14 @@ html.lenis body {
   border: 2px solid var(--rs-theme-yellow);
   color: var(--rs-theme-yellow);
 }
-.rs-list-item.has-theme-orange ul li i {
+/* .rs-list-item.has-theme-orange ul li i {
   border: 2px solid var(--rs-theme-orange);
   color: var(--rs-theme-orange);
 }
 .rs-list-item.has-theme-blue ul li i {
   border: 2px solid var(--rs-theme-deep-blue);
   color: var(--rs-theme-deep-blue);
-}
+} */
 
 /*----------------------------------------*/
 /*  3.5.1 Header Style 1
@@ -17880,7 +17880,7 @@ html.lenis body {
   fill: var(--rs-theme-orange);
 }
 .rs-services-details-wrapper .rs-list-item ul li:not(:last-child) {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 .rs-services-details-wrapper .rs-services-details-video {
   min-height: 400px;
@@ -25718,3 +25718,41 @@ a.ui-button:active {
     gap: 8px;
   }
 }
+
+
+
+
+
+/* Custom CSS */
+.service-details__list ul{
+  padding-left: 0px !important;
+}
+.service-details__list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.service-details__list li i {
+  margin-right: 8px;
+  flex-shrink: 0;
+  margin-top: 6px;
+  color: var(--rs-theme-orange);
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  .service-details__list li i {
+    margin-top: 4px;
+  }
+}
+.service-details__list p {
+  margin-bottom: 4px !important;
+}
+.inter-font {
+            font-family: "Inter" !important;
+            font-style: normal !important;
+            font-size: 26px !important;
+        }
+        .service-details__list {
+            padding-left: .2rem !important;
+        }
