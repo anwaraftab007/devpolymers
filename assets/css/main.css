@@ -1023,6 +1023,7 @@ textarea:focus {
   margin-bottom: 20px;
 }
 .rs-accordion-one .accordion-button {
+  position: relative;
   text-align: justify;
   font-size: 20px;
   font-weight: 600;
@@ -1056,12 +1057,17 @@ textarea:focus {
 }
 .rs-accordion-one .accordion-button .accordion-btn {
   position: absolute;
-  top: 50%;
+  top: 32px;
   right: 20px;
   display: inline-block;
   width: 14px;
   height: 14px;
   transform: translateY(-50%);
+}
+@media (min-width: 768px){
+  .rs-accordion-one .accordion-button .accordion-btn{
+    top: 34px;
+  }
 }
 .rs-accordion-one .accordion-button .accordion-btn::before {
   position: absolute;
