@@ -1023,6 +1023,7 @@ textarea:focus {
   margin-bottom: 20px;
 }
 .rs-accordion-one .accordion-button {
+  text-align: justify;
   font-size: 20px;
   font-weight: 600;
   background-color: transparent;
@@ -1101,6 +1102,7 @@ textarea:focus {
   fill: var(--rs-theme-primary) !important;
 }
 .rs-accordion-one .accordion-body {
+  text-align: justify;
   padding: 0;
   color: var(--rs-text-primary);
   padding: 20px 50px 20px 20px;
