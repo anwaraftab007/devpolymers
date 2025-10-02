@@ -5665,7 +5665,7 @@ html.lenis body {
   }
 }
 .rs-header-one .main-menu {
-  border-inline-start: 1px solid rgba(31, 31, 31, 0.07);
+  /* border-inline-start: 1px solid rgba(31, 31, 31, 0.07); */
   padding-inline-start: 30px;
   margin-inline-start: 50px;
 }
