@@ -9350,7 +9350,7 @@ html.lenis body {
   inset-inline-start: 0;
   top: 0;
   z-index: -1;
-  background-size: cover;
+  background-size: contain;
 }
 .rs-blog-one .rs-blog-bg-thumb.has-bg::before {
   position: absolute;
