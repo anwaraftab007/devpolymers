@@ -625,39 +625,65 @@ h2,
   line-height: 1.17;
   font-weight: var(--rs-fw-bold);
 }
+.rs-section-title.compact {
+  font-size: 40px;
+  line-height: 1.17;
+  font-weight: var(--rs-fw-bold);
+}
+@media only screen and (max-width: 1366px) {
+  
+  .rs-section-title.compact {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  
+  .rs-section-title.compact {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  
+  .rs-section-title.compact {
+    font-size: 31px;
+  }
+}
 @media only screen and (max-width: 1366px) {
   h2,
-  .h2 {
+  .h2{
     font-size: 45px;
   }
 }
 @media only screen and (max-width: 1199px) {
   h2,
-  .h2 {
+  .h2{
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   h2,
-  .h2 {
+  .h2{
     font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   h2,
-  .h2 {
+  .h2,
+  .rs-section-title.compact {
     font-size: 30px;
   }
 }
 @media only screen and (max-width: 575px) {
   h2,
-  .h2 {
+  .h2,
+  .rs-section-title.compact {
     font-size: 28px;
   }
 }
 @media only screen and (max-width: 480px) {
   h2,
-  .h2 {
+  .h2,
+  .rs-section-title.compact {
     font-size: 26px;
   }
 }
@@ -19471,6 +19497,11 @@ html.lenis body {
   .rs-contact-one .rs-contact-form {
     padding: 30px 30px 30px 30px;
     margin-inline-start: 30px;
+  }
+}
+@media (min-width: 1199px){
+  .rs-contact-one .rs-contact-form {
+    margin-top: -40%;
   }
 }
 @media only screen and (max-width: 1199px) {
