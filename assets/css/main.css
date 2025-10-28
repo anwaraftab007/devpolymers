@@ -11090,13 +11090,13 @@ html.lenis body {
   margin-bottom: 30px;
 }
 .rs-footer-two .rs-footer-widget-address a {
-  color: var(--rs-text-secondary);
+  color: var(--rs-theme-orange);
 }
 .rs-footer-two .rs-footer-widget-address a:hover {
   color: var(--rs-theme-red);
 }
 .rs-footer-two .rs-footer-widget-email a {
-  color: var(--rs-text-secondary);
+  color: var(--rs-theme-orange);
 }
 .rs-footer-two .rs-footer-widget-email a:hover {
   color: var(--rs-theme-red);
@@ -11111,7 +11111,13 @@ html.lenis body {
   display: block;
 }
 .rs-footer-two .rs-footer-widget-number span a {
-  color: var(--rs-text-secondary);
+  color: var(--rs-theme-orange);
+}
+.custom-footer-bottom .footer-copy-left span{
+  color: var(--rs-theme-orange) !important;
+}
+.custom-footer-bottom .footer-copy-right span{
+  color: var(--rs-theme-orange) !important;
 }
 .rs-footer-two .rs-footer-widget-number span a:hover {
   color: var(--rs-theme-red);
