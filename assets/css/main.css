@@ -2847,6 +2847,7 @@ textarea:focus {
   color: var(--rs-title-primary);
   font-weight: var(--rs-fw-bold);
   font-family: var(--rs-ff-title);
+  text-align: left;
 }
 .rs-section-title.has-theme-blue {
   color: #0C3C61;
@@ -2870,8 +2871,10 @@ textarea:focus {
   align-items: center;
   gap: 8px;
   margin-bottom: 15px;
-  justify-content: center;
+  /* margin-left: 5px; */
+  /* justify-content: center; */
 }
+
 .rs-section-subtitle img {
   width: 30px;
 }
@@ -20328,6 +20331,7 @@ html.lenis body {
 .rs-contact-five .rs-contact-icon svg {
   width: 20px;
   height: 20px;
+  margin-top: -5px;
 }
 .rs-contact-five .rs-contact-item {
   display: flex;
