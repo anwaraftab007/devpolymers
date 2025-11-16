@@ -5245,6 +5245,7 @@ html.lenis body {
   position: absolute;
   top: -1px;
   right: 100%;
+  display: none;
 }
 .rs-theme-settings-open button {
   background-color: var(--rs-white);
@@ -19419,7 +19420,7 @@ html.lenis body {
 }
 .rs-contact-one .rs-section-title-wrapper .descrip {
   color: #CBCCCD;
-  max-width: 95%;
+  /* max-width: 95%; */
 }
 .rs-contact-one .rs-contact-bg {
   position: absolute;
