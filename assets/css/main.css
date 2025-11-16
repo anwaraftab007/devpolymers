@@ -6898,18 +6898,18 @@ html.lenis body {
   flex-direction: column;
   position: absolute;
   z-index: 2;
-  inset-inline-end: 250px;
+  inset-inline-end: 50px;
   top: 50%;
   transform: translateY(-50%);
 }
 @media only screen and (max-width: 1366px) {
   .rs-banner-one .rs-banner-navigation {
-    inset-inline-end: 200px;
+    inset-inline-end: 50px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .rs-banner-one .rs-banner-navigation {
-    inset-inline-end: 50px;
+    inset-inline-end: 30px;
   }
 }
 @media only screen and (max-width: 767px) {
