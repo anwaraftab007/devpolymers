@@ -16685,7 +16685,7 @@ html.lenis body {
   transform: translate(20px, -50%);
 }
 .rs-services-one .rs-services-tab-content p {
-  margin: 15px 0 40px;
+  /* margin: 15px 0 40px; */
 }
 .rs-services-one .rs-services-tab-title {
   font-size: 36px;
