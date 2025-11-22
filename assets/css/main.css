@@ -2142,6 +2142,7 @@ textarea:focus {
   padding-bottom: 25px;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(31, 31, 31, 0.16);
+  justify-content: center;
 }
 .rs-counter-one .rs-counter-title {
   font-size: 20px;
@@ -25858,9 +25859,14 @@ a.ui-button:active {
 .offcanvas-contact-icon {
   flex: 0 0 auto !important;     /* don't shrink or stretch */
   align-self: flex-start !important; /* stick to the top of li */
-  margin-top: 0 !important;
+  /* margin-top: 0 !important; */
   padding-top: 0 !important;
 }
+ul li:nth-child(2) .offcanvas-contact-icon,
+ul li:nth-child(3) .offcanvas-contact-icon {
+    margin-top: -6px !important;
+}
+
 
 /* Fix SVG size and prevent distortion */
 .offcanvas-contact-icon svg {
