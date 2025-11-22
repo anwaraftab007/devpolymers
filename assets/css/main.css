@@ -6754,7 +6754,7 @@ html.lenis body {
   display: flex;
   position: absolute;
   inset-inline-start: 50px;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%) rotate(-90deg);
   z-index: 2;
 }
