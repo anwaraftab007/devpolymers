@@ -13475,7 +13475,7 @@ html.lenis body {
   width: 100%;
 }
 .rs-about-thirteen .rs-about-content-wrapper .descrip {
-  margin: 20px 0 40px;
+  margin: 20px 0 25px;
 }
 .rs-about-thirteen .rs-about-tab .nav-link {
   background: var(--rs-bg-primary);
@@ -25913,3 +25913,8 @@ ul li:nth-child(3) .offcanvas-contact-icon {
   font-size: 45px !important;
 }}
 
+@media (min-width: 1367px){
+  .about-we-serve{
+    font-size: 40px !important;
+  }}
+  
