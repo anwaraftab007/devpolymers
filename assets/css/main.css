@@ -5695,7 +5695,7 @@ html.lenis body {
 .rs-header-one .rs-header-menu {
   display: flex;
   align-items: center;
-  margin-inline-end: auto;
+  margin: auto;
   padding-inline-start: 40px;
 }
 @media only screen and (max-width: 1600px) {
@@ -5706,6 +5706,11 @@ html.lenis body {
 @media only screen and (max-width: 575px) {
   .rs-header-one .rs-theme-social {
     display: none;
+  }
+}
+@media (min-width: 980px){
+  .main-menu li a {
+    font-weight: bold !important;
   }
 }
 .rs-header-one .main-menu {
@@ -6877,7 +6882,7 @@ html.lenis body {
   margin: 20px 0 40px;
 }
 .rs-banner-one .rs-banner-descrip p {
-  color: var(--rs-theme-orange);
+  color: white;
   font-size: 20px;
   font-weight: bold;
 }
@@ -21561,7 +21566,7 @@ html.lenis body {
 }
 .rs-work-step-one .rs-work-step-icon::before {
   position: absolute;
-  color: var(--rs-text-primary);
+  color: var(--rs-theme-orange);
   counter-increment: count;
   content: "0" counter(count);
   z-index: 1;
@@ -21569,7 +21574,6 @@ html.lenis body {
   font-size: 90px;
   font-weight: 700;
   top: 50%;
-  opacity: 0.08;
   transform: translateY(-50%);
   line-height: 0.8;
   transition: all 0.5s ease;
