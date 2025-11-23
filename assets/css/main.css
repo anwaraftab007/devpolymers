@@ -6879,6 +6879,7 @@ html.lenis body {
 .rs-banner-one .rs-banner-descrip p {
   color: var(--rs-theme-orange);
   font-size: 20px;
+  font-weight: bold;
 }
 @media only screen and (max-width: 991px) {
   .rs-banner-one .rs-banner-descrip p {
