@@ -25908,3 +25908,7 @@ ul li:nth-child(3) .offcanvas-contact-icon {
 .offcanvas-contact-text{
   text-align: justify !important;
 }
+@media (min-width: 1367px){
+.industrie-we-serve{
+  font-size: 45px !important;
+}}
