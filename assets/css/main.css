@@ -18347,10 +18347,10 @@ html.lenis body {
 }
 .rs-portfolio-one .rs-portfolio-content {
   position: absolute;
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
   z-index: 2;
   padding: 40px 40px 40px 40px;
-  bottom: -90px;
+  bottom: 0px;
   width: 100%;
 }
 @media only screen and (max-width: 480px) {
