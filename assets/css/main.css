@@ -9372,9 +9372,9 @@ html.lenis body {
   height: 100%;
   z-index: 1;
 }
-.rs-blog-one .rs-blog-item:hover .rs-blog-thumb img {
+/* .rs-blog-one .rs-blog-item:hover .rs-blog-thumb img {
   transform: scale(1.1);
-}
+} */
 @media only screen and (max-width: 991px) {
   .rs-blog-one .rs-blog-item.has-thumb-height {
     height: 450px;
