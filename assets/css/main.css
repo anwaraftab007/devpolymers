@@ -10152,9 +10152,9 @@ html.lenis body {
   position: relative;
   overflow: hidden;
 }
-.rs-postbox-thumb:hover img {
+/* .rs-postbox-thumb:hover img {
   transform: scale(1.1);
-}
+} */
 .rs-postbox-thumb img {
   width: 100%;
   border-radius: 4px;
