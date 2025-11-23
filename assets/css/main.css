@@ -2724,6 +2724,20 @@ textarea:focus {
 .offcanvas-contact ul li:hover svg path {
   fill: var(--rs-theme-orange);
 }
+@media (min-width: 1201px){
+  .offcanvas-contact {
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  .offcanvas-title-meta{
+    width: 100%;
+    text-align: left !important;
+    margin-left: 7%;
+  }
+}
 .offcanvas-contact-icon {
   display: inline-block;
   width: 40px;
@@ -2768,6 +2782,7 @@ textarea:focus {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .offcanvas-gallery-thumb-wrapper .offcanvas-popup-thumb img {
   width: 100px;
