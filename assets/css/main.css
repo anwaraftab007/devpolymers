@@ -2756,7 +2756,14 @@ textarea:focus {
 .offcanvas-btn .rs-btn:hover {
   border-color: var(--rs-theme-primary);
 }
-
+.offcanvas-contact ul{
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .offcanvas-contact ul{
+    width: 90%;
+  }
+}
 .offcanvas-gallery-thumb-wrapper {
   gap: 20px;
   display: flex;
