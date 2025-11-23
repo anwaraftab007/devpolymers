@@ -3011,9 +3011,9 @@ textarea:focus {
   background-size: cover;
   z-index: -1;
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 786px) {
   .rs-breadcrumb-one .rs-breadcrumb-bg {
-    background-position: center left;
+    background-position: left !important;
   }
 }
 .rs-breadcrumb-one .rs-breadcrumb-title {
@@ -11048,11 +11048,11 @@ html.lenis body {
   }
 }
 .rs-footer-two .rs-footer-top {
-  padding: 70px 0 80px;
+  padding: 70px 0 70px;
 }
 @media only screen and (max-width: 767px) {
   .rs-footer-two .rs-footer-top {
-    padding: 60px 0 70px;
+    padding: 60px 0 60px;
   }
 }
 .rs-footer-two .rs-footer-bg-thumb {
@@ -20519,7 +20519,8 @@ html.lenis body {
 }
 .rs-contact-form .descrip {
   margin: 15px auto 30px;
-  max-width: 630px;
+  /* max-width: 630px; */
+  text-align: center !important;
 }
 .rs-contact-seven .rs-contact-title {
   font-size: 40px;
@@ -20533,7 +20534,7 @@ html.lenis body {
   border-color: var(--rs-theme-orange);
 }
 .rs-contact-seven .rs-contact-input textarea {
-  height: 90px;
+  height: 130px;
   background: var(--rs-white);
   border: 1px solid #D2D2D2;
   border-radius: 4px;
