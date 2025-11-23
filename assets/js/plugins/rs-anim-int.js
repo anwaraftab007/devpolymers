@@ -52,7 +52,7 @@
                     rotateX: "0",
                     scale: 1,
                     opacity: 1,
-                    duration: 0.8,
+                    duration: 0.4,
                     stagger: 0.02
                 });
             });
